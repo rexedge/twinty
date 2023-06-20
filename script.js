@@ -18,3 +18,8 @@ window.addEventListener('scroll', function () {
           navbar.classList.remove('bg-white', 'backdrop-blur-sm');
      }
 })
+
+function shownav() {
+     const navbars = document.getElementById('navbar-mobile');
+     navbars.classList.toggle('hidden')
+}
